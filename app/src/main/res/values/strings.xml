@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">BusCheck</string>
+    <string name="title1">Una Nueva Manera de Vender</string>
+    <string name="title2">Olvida las Planillas Manuales</string>
+    <string name="title3">Mantente Siempre Conectado</string>
+
+    <string name="description1">Toda la información al alcance de tus manos. Vende de una manera rápida, efectiva y dinámica con tan solo unos toques.</string>
+    <string name="description2">BusCheck contribuye y colabora con el medio ambiente. Cambiamos la habitual planilla por una interfaz mas amigable y tecnológica.</string>
+    <string name="description3">Consulta donde y cuando quieras el historial de todos tus viajes y ventas. Siempre tendrás toda la información actualizada.</string>
+
+    <string name="siguiente">Siguiente</string>
+    <string name="volver">Volver</string>
+    <string name="listo">Listo</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

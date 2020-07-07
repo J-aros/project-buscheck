@@ -1,0 +1,301 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/menu"
+    tools:context=".MenuActivity">
+
+    <View
+        android:id="@+id/opUnoview"
+        android:layout_width="169dp"
+        android:layout_height="155dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="348dp"
+        android:background="@drawable/view_card"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <View
+        android:id="@+id/opDosview"
+        android:layout_width="169dp"
+        android:layout_height="155dp"
+        android:layout_marginTop="348dp"
+        android:layout_marginEnd="16dp"
+        android:background="@drawable/view_card"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <View
+        android:id="@+id/opTresview"
+        android:layout_width="169dp"
+        android:layout_height="155dp"
+        android:layout_marginTop="28dp"
+        android:layout_marginEnd="16dp"
+        android:background="@drawable/view_card"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/opDosview" />
+
+    <View
+        android:id="@+id/opCuatroview"
+        android:layout_width="169dp"
+        android:layout_height="155dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="28dp"
+        android:background="@drawable/view_card"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/opUnoview" />
+
+    <ImageView
+        android:id="@+id/imageView8"
+        android:layout_width="38dp"
+        android:layout_height="46dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="12dp"
+        app:layout_constraintStart_toStartOf="@+id/opCuatroview"
+        app:layout_constraintTop_toTopOf="@+id/opCuatroview"
+        app:srcCompat="@drawable/files" />
+
+    <ImageView
+        android:id="@+id/imageView10"
+        android:layout_width="29dp"
+        android:layout_height="21dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="8dp"
+        app:layout_constraintEnd_toEndOf="@+id/opDosview"
+        app:layout_constraintTop_toTopOf="@+id/opDosview"
+        app:srcCompat="@drawable/right" />
+
+    <ImageView
+        android:id="@+id/imageView11"
+        android:layout_width="29dp"
+        android:layout_height="21dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="8dp"
+        app:layout_constraintEnd_toEndOf="@+id/opUnoview"
+        app:layout_constraintTop_toTopOf="@+id/opUnoview"
+        app:srcCompat="@drawable/right" />
+
+    <ImageView
+        android:id="@+id/imageView12"
+        android:layout_width="29dp"
+        android:layout_height="21dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="4dp"
+        app:layout_constraintEnd_toEndOf="@+id/opCuatroview"
+        app:layout_constraintTop_toTopOf="@+id/opCuatroview"
+        app:srcCompat="@drawable/right" />
+
+    <ImageView
+        android:id="@+id/imageView13"
+        android:layout_width="29dp"
+        android:layout_height="21dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="8dp"
+        app:layout_constraintEnd_toEndOf="@+id/opTresview"
+        app:layout_constraintTop_toTopOf="@+id/opTresview"
+        app:srcCompat="@drawable/right" />
+
+    <View
+        android:id="@+id/view3"
+        android:layout_width="395dp"
+        android:layout_height="233dp"
+        android:background="@drawable/view_top"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/imageView15"
+        android:layout_width="393dp"
+        android:layout_height="267dp"
+        android:layout_marginTop="60dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/view3"
+        app:srcCompat="@drawable/gente" />
+
+    <View
+        android:id="@+id/view4"
+        android:layout_width="357dp"
+        android:layout_height="49dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="24dp"
+        android:background="@drawable/view_bottom"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <ImageView
+        android:id="@+id/imageView16"
+        android:layout_width="37dp"
+        android:layout_height="46dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="12dp"
+        app:layout_constraintStart_toStartOf="@+id/opTresview"
+        app:layout_constraintTop_toTopOf="@+id/opTresview"
+        app:srcCompat="@drawable/form" />
+
+    <ImageView
+        android:id="@+id/imageView17"
+        android:layout_width="45dp"
+        android:layout_height="30dp"
+        android:layout_marginStart="20dp"
+        app:layout_constraintBottom_toBottomOf="@+id/view4"
+        app:layout_constraintStart_toStartOf="@+id/view4"
+        app:layout_constraintTop_toTopOf="@+id/view4"
+        app:srcCompat="@drawable/house" />
+
+    <ImageView
+        android:id="@+id/imageView21"
+        android:layout_width="37dp"
+        android:layout_height="30dp"
+        android:layout_marginEnd="44dp"
+        app:layout_constraintBottom_toBottomOf="@+id/view4"
+        app:layout_constraintEnd_toStartOf="@+id/imageView22"
+        app:layout_constraintTop_toTopOf="@+id/view4"
+        app:layout_constraintVertical_bias="0.473"
+        app:srcCompat="@drawable/search" />
+
+    <ImageView
+        android:id="@+id/imageView22"
+        android:layout_width="46dp"
+        android:layout_height="32dp"
+        android:layout_marginEnd="24dp"
+        app:layout_constraintBottom_toBottomOf="@+id/view4"
+        app:layout_constraintEnd_toEndOf="@+id/view4"
+        app:layout_constraintTop_toTopOf="@+id/view4"
+        app:layout_constraintVertical_bias="0.529"
+        app:srcCompat="@drawable/user" />
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="20dp"
+        android:fontFamily="@font/proxbold"
+        android:text="Venta Boletos"
+        android:textColor="@color/bottom"
+        android:textSize="19dp"
+        app:layout_constraintStart_toStartOf="@+id/opUnoview"
+        app:layout_constraintTop_toBottomOf="@+id/imageView4" />
+
+    <TextView
+        android:id="@+id/textView7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="20dp"
+        android:fontFamily="@font/proxbold"
+        android:text="Consultar Datos"
+        android:textColor="@color/bottom"
+        android:textSize="19dp"
+        app:layout_constraintStart_toStartOf="@+id/opDosview"
+        app:layout_constraintTop_toBottomOf="@+id/imageView5" />
+
+    <TextView
+        android:id="@+id/textView12"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="20dp"
+        android:fontFamily="@font/proxbold"
+        android:text="Historial Venta"
+        android:textColor="@color/bottom"
+        android:textSize="19dp"
+        app:layout_constraintStart_toStartOf="@+id/opCuatroview"
+        app:layout_constraintTop_toBottomOf="@+id/imageView8" />
+
+    <TextView
+        android:id="@+id/textView13"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="20dp"
+        android:fontFamily="@font/proxbold"
+        android:text="Formularios"
+        android:textColor="@color/bottom"
+        android:textSize="19dp"
+        app:layout_constraintStart_toStartOf="@+id/opTresview"
+        app:layout_constraintTop_toBottomOf="@+id/imageView16" />
+
+    <ImageView
+        android:id="@+id/imageView23"
+        android:layout_width="40dp"
+        android:layout_height="33dp"
+        app:layout_constraintBottom_toBottomOf="@+id/view4"
+        app:layout_constraintEnd_toStartOf="@+id/imageView21"
+        app:layout_constraintStart_toEndOf="@+id/imageView17"
+        app:layout_constraintTop_toTopOf="@+id/view4"
+        app:srcCompat="@drawable/asiento" />
+
+    <TextView
+        android:id="@+id/textView14"
+        android:layout_width="156dp"
+        android:layout_height="43dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginBottom="8dp"
+        android:text="Administra de manera simple las ventas de boleto "
+        android:textSize="12dp"
+        app:layout_constraintBottom_toBottomOf="@+id/opUnoview"
+        app:layout_constraintStart_toStartOf="@+id/opUnoview" />
+
+    <TextView
+        android:id="@+id/textView15"
+        android:layout_width="152dp"
+        android:layout_height="30dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginBottom="20dp"
+        android:text="Observa en detalle datos de otros buses y viajes asociados"
+        android:textSize="12dp"
+        app:layout_constraintBottom_toBottomOf="@+id/opDosview"
+        app:layout_constraintStart_toStartOf="@+id/opDosview" />
+
+    <TextView
+        android:id="@+id/textView18"
+        android:layout_width="138dp"
+        android:layout_height="35dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginBottom="8dp"
+        android:text="Informáte sobre el historial de tus ventas"
+        android:textSize="12dp"
+        app:layout_constraintBottom_toBottomOf="@+id/opCuatroview"
+        app:layout_constraintStart_toStartOf="@+id/opCuatroview" />
+
+    <TextView
+        android:id="@+id/textView19"
+        android:layout_width="144dp"
+        android:layout_height="27dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginBottom="16dp"
+        android:text="Redacta rápidas observaciones y reclamos"
+        android:textSize="12dp"
+        app:layout_constraintBottom_toBottomOf="@+id/opTresview"
+        app:layout_constraintStart_toStartOf="@+id/opTresview" />
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="39dp"
+        android:layout_height="39dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="12dp"
+        app:layout_constraintStart_toStartOf="@+id/opUnoview"
+        app:layout_constraintTop_toTopOf="@+id/opUnoview"
+        app:srcCompat="@drawable/commerce" />
+
+    <ImageView
+        android:id="@+id/imageView5"
+        android:layout_width="48dp"
+        android:layout_height="38dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="12dp"
+        app:layout_constraintStart_toStartOf="@+id/opDosview"
+        app:layout_constraintTop_toTopOf="@+id/opDosview"
+        app:srcCompat="@drawable/research" />
+
+</android.support.constraint.ConstraintLayout>
