@@ -9,7 +9,13 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".FormularioActivity"></activity>
+        <activity android:name=".FinalizarVentaActivity"></activity>
+        <activity android:name=".AyudaActivity" />
+        <activity android:name=".FrecuenteActivity" />
+        <activity android:name=".EstudianteActivity" />
+        <activity android:name=".NormalActivity" />
+        <activity android:name=".SeleccionarBusActivity" />
+        <activity android:name=".FormularioActivity" />
         <activity android:name=".VentaActivity" />
         <activity android:name=".MenuActivity" />
         <activity android:name=".TutorialActivity" />

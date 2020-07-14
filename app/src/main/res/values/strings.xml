@@ -8,8 +8,21 @@
     <string name="description2">BusCheck contribuye y colabora con el medio ambiente. Cambiamos la habitual planilla por una interfaz mas amigable y tecnológica.</string>
     <string name="description3">Consulta donde y cuando quieras el historial de todos tus viajes y ventas. Siempre tendrás toda la información actualizada.</string>
 
+    <string name="ayuda1">Gracias por usar BusCheck App. Esta aplicación te permite vender de manera rápida y eficiente boletos de bus.</string>
+    <string name="ayuda2">Usa los botones que se presentan en la pantalla principal para comenzar y navegar por la aplicación. Hemos creado BusCheck de una manera intuitiva para que no te resulte difícil usarla por primera vez. </string>
+    >
+    <string name="ayuda3">Estamos orgullosos de que uses nuestra aplicación y poder contribuir a un mejor mundo al reducir el uso de papel y utilizar nuevas y potentes tecnologías.</string>
+    <string name="ayuda4">Un afectuoso saludo de parte del equipo BusCheck.</string>>
+
     <string name="siguiente">Siguiente</string>
     <string name="volver">Volver</string>
     <string name="listo">Listo</string>
     <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string-array name="tipoBoleto">
+        <item>Normal</item>
+        <item>Frecuente</item>
+        <item>Estudiante</item>
+    </string-array>
+    >
 </resources>

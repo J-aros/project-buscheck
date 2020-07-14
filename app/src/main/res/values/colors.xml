@@ -17,7 +17,10 @@
     <color name="orange">#FFA420</color>
     <color name="form">#F4ECF7</color>
     <color name="darker_gray">#AAAAAA</color>
+    <color name="form1">#828CAA</color>
+    <color name="form2">#AAAAAA</color>
+    <color name="boleto">#191948</color>
 
-    #FFE627
+
 
 </resources>

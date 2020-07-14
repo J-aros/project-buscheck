@@ -62,26 +62,26 @@
         android:id="@+id/correoTxt"
         android:layout_width="310dp"
         android:layout_height="50dp"
+        android:layout_marginTop="84dp"
         android:layout_marginBottom="16dp"
-        android:ems="10"
-        android:textSize="14sp"
-        android:drawablePadding="12dp"
+        android:background="@drawable/custom_input"
         android:drawableStart="@drawable/custom_mail_icon"
+        android:drawablePadding="12dp"
+        android:ems="10"
         android:hint="Correo Electrónico"
+        android:inputType="textPersonName"
         android:paddingStart="12dp"
         android:paddingEnd="12dp"
-        android:background="@drawable/custom_input"
-        android:inputType="textPersonName"
         android:textColorHint="@color/gray"
-        app:layout_constraintBottom_toTopOf="@+id/editText2"
+        android:textSize="14sp"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.53"
+        app:layout_constraintHorizontal_bias="0.493"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView8"
         app:layout_constraintVertical_bias="0.78" />
 
     <EditText
-        android:id="@+id/editText2"
+        android:id="@+id/passTxt"
         android:layout_width="310dp"
         android:layout_height="50sp"
         android:layout_marginBottom="72dp"
@@ -145,7 +145,7 @@
         android:layout_width="88dp"
         android:layout_height="66dp"
         android:layout_marginTop="128dp"
-        android:layout_marginEnd="36dp"
+        android:layout_marginEnd="48dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toTopOf="@+id/view2"
         app:srcCompat="@drawable/comp1" />
@@ -155,12 +155,12 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="92dp"
-        android:layout_marginEnd="56dp"
+        android:layout_marginEnd="48dp"
         android:fontFamily="@font/proxregular"
         android:text="¿Necesita Ayuda?"
         android:textColor="@color/red"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/editText2" />
+        app:layout_constraintTop_toBottomOf="@+id/passTxt" />
 
 
 </android.support.constraint.ConstraintLayout>

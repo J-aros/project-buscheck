@@ -32,7 +32,7 @@ public class MenuActivity extends AppCompatActivity implements View.OnClickListe
         switch (view.getId()) {
             case R.id.opUnoview : i = new Intent(this,VentaActivity.class); break;
             case R.id.opDosview : i = new Intent(this,VentaActivity.class); break;
-            case R.id.opTresview : i = new Intent(this,VentaActivity.class); break;
+            case R.id.opTresview : i = new Intent(this,FormularioActivity.class); break;
             case R.id.opCuatroview : i = new Intent(this,FormularioActivity.class); break;
             default:break;
         }

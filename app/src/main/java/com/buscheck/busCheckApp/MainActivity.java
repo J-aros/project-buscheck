@@ -5,18 +5,20 @@ import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
+import android.widget.TextView;
 
 public class MainActivity extends AppCompatActivity {
 
-    Button entrar;
+    Button entrarBtn;
+    TextView ayudaTxt;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        entrar = (Button) findViewById(R.id.entrarBtn);
-        entrar.setOnClickListener(new View.OnClickListener() {
+        entrarBtn = (Button) findViewById(R.id.entrarBtn);
+        entrarBtn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
 
@@ -26,7 +28,14 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
+        ayudaTxt = (TextView)findViewById(R.id.ayudaTxt);
+        ayudaTxt.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
 
-
+                Intent registroUsuario = new Intent(MainActivity.this, AyudaActivity.class);
+                startActivity(registroUsuario);
+            }
+        });
     }
 }

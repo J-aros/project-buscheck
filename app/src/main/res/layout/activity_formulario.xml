@@ -5,110 +5,25 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    android:background="@color/main"
+    android:background="@color/form1"
     tools:context=".FormularioActivity">
 
-    <EditText
-        android:id="@+id/editText3"
-        android:layout_width="278dp"
-        android:layout_height="40dp"
-        android:layout_marginStart="64dp"
-        android:layout_marginTop="24dp"
-        android:background="@drawable/formulario_bg"
-        android:ems="10"
-        android:inputType="textPersonName"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView21" />
-
-    <EditText
-        android:id="@+id/editText4"
-        android:layout_width="266dp"
-        android:layout_height="287dp"
-        android:layout_marginStart="64dp"
-        android:layout_marginTop="24dp"
-        android:background="@drawable/formulario_bg"
-        android:ems="10"
-        android:inputType="textPersonName"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView22" />
 
     <Button
         android:id="@+id/enviarBtn"
-        android:layout_width="278dp"
-        android:layout_height="47dp"
-        android:layout_marginStart="64dp"
-        android:layout_marginTop="172dp"
+        android:layout_width="329dp"
+        android:layout_height="55dp"
+        android:layout_marginStart="32dp"
+        android:layout_marginEnd="32dp"
+        android:layout_marginBottom="24dp"
         android:background="@drawable/button"
         android:text="ENVIAR"
         android:textColor="@color/white"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/editText4" />
-
-    <TextView
-        android:id="@+id/textView21"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="64dp"
-        android:layout_marginTop="92dp"
-        android:fontFamily="@font/proxbold"
-        android:text="Título : "
-        android:textColor="@color/form"
-        android:textSize="18dp"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
-
-    <RadioGroup
-        android:id="@+id/radioGroup"
-        android:layout_width="189dp"
-        android:layout_height="74dp"
-        android:layout_marginStart="64dp"
-        android:layout_marginTop="24dp"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView23">
-
-
-        <RadioButton
-            android:id="@+id/reclamoRbtn"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:button="@drawable/custome_rbuttom"
-            android:text=" Reclamo"
-            android:textColor="@color/form" />
-
-        <RadioButton
-            android:id="@+id/obsRbtn"
-            android:layout_width="match_parent"
-            android:layout_height="46dp"
-            android:button="@drawable/custome_rbuttom"
-            android:text=" Observación"
-            android:textColor="@color/form" />
-    </RadioGroup>
-
-    <TextView
-        android:id="@+id/textView22"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="64dp"
-        android:layout_marginTop="36dp"
-        android:fontFamily="@font/proxbold"
-        android:text="Descripción : "
-        android:textColor="@color/form"
-        android:textSize="18dp"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/editText3" />
-
-    <TextView
-        android:id="@+id/textView23"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="64dp"
-        android:layout_marginTop="24dp"
-        android:fontFamily="@font/proxbold"
-        android:text="Seleccione una Opción : "
-        android:textColor="#FFE627"
-        android:textSize="18dp"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/editText4" />
+        android:textSize="15dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent" />
 
     <ImageButton
         android:id="@+id/backBtnForm"
@@ -122,6 +37,127 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:srcCompat="@drawable/backwhite" />
+
+    <View
+        android:id="@+id/view"
+        android:layout_width="355dp"
+        android:layout_height="639dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="72dp"
+        android:layout_marginEnd="16dp"
+        android:background="@drawable/view_form"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <View
+        android:id="@+id/view5"
+        android:layout_width="355dp"
+        android:layout_height="63dp"
+        android:layout_marginTop="72dp"
+        android:background="@drawable/view_form_dos"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.578"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView11"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/sultan"
+        android:text="FORMULARIO"
+        android:textColor="@color/white"
+        android:textSize="24dp"
+        app:layout_constraintBottom_toBottomOf="@+id/view5"
+        app:layout_constraintEnd_toEndOf="@+id/view5"
+        app:layout_constraintHorizontal_bias="0.478"
+        app:layout_constraintStart_toStartOf="@+id/view5"
+        app:layout_constraintTop_toTopOf="@+id/view"
+        app:layout_constraintVertical_bias="0.564" />
+
+    <EditText
+        android:id="@+id/editTextTextPersonName"
+        android:layout_width="304dp"
+        android:layout_height="48dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="28dp"
+        android:layout_marginEnd="8dp"
+        android:background="@drawable/custom_input2"
+        android:ems="10"
+        android:hint="Título"
+        android:inputType="textPersonName"
+        android:paddingStart="12dp"
+        android:paddingEnd="12dp"
+        android:textColorHint="@color/gray"
+        android:textSize="14sp"
+        app:layout_constraintEnd_toEndOf="@+id/view"
+        app:layout_constraintStart_toStartOf="@+id/view"
+        app:layout_constraintTop_toBottomOf="@+id/view5" />
+
+    <EditText
+        android:id="@+id/editTextTextPersonName2"
+        android:layout_width="301dp"
+        android:layout_height="288dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="28dp"
+        android:layout_marginEnd="8dp"
+        android:background="@drawable/custom_input2"
+        android:ems="10"
+        android:hint="Escriba algo.."
+        android:inputType="textPersonName"
+        android:paddingStart="12dp"
+        android:paddingBottom="220dp"
+        android:textColorHint="@color/gray"
+        android:textSize="14sp"
+        app:layout_constraintEnd_toEndOf="@+id/view"
+        app:layout_constraintHorizontal_bias="0.504"
+        app:layout_constraintStart_toStartOf="@+id/view"
+        app:layout_constraintTop_toBottomOf="@+id/editTextTextPersonName" />
+
+    <RadioGroup
+        android:id="@+id/radioGroup"
+        android:layout_width="307dp"
+        android:layout_height="100dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="72dp"
+        android:layout_marginEnd="8dp"
+        app:layout_constraintEnd_toEndOf="@+id/view"
+        app:layout_constraintHorizontal_bias="0.531"
+        app:layout_constraintStart_toStartOf="@+id/view"
+        app:layout_constraintTop_toBottomOf="@+id/editTextTextPersonName2">
+
+
+        <RadioButton
+            android:id="@+id/reclamoRbtn"
+            android:layout_width="match_parent"
+            android:layout_height="47dp"
+            android:button="@drawable/custome_rbuttom"
+            android:text=" Reclamo"
+            android:textColor="@color/gray" />
+
+        <RadioButton
+            android:id="@+id/obsRbtn"
+            android:layout_width="match_parent"
+            android:layout_height="44dp"
+            android:button="@drawable/custome_rbuttom"
+            android:text=" Observación"
+            android:textColor="@color/gray" />
+    </RadioGroup>
+
+    <TextView
+        android:id="@+id/textView21"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="36dp"
+        android:layout_marginTop="32dp"
+        android:fontFamily="@font/proxbold"
+        android:text="Seleccione una Opción"
+        android:textColor="#18D2BA"
+        android:textSize="19dp"
+        app:layout_constraintStart_toStartOf="@+id/view"
+        app:layout_constraintTop_toBottomOf="@+id/editTextTextPersonName2" />
 
 
 </android.support.constraint.ConstraintLayout>
