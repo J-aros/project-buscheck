@@ -14,13 +14,24 @@ import java.util.List;
 
 public class VentaActivity extends AppCompatActivity {
 
-    private Button btn;
+    private Button btn,btnSiguiente;
     private String data;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_venta);
+
+        btnSiguiente = (Button) findViewById(R.id.siguienteBtn);
+        btnSiguiente.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+
+                Intent intent = new Intent(VentaActivity.this, FinalizarVentaActivity.class);
+                startActivity(intent);
+
+            }
+        });
 
         //Creación de Variables
         btn = findViewById(R.id.btnA1);
@@ -30,7 +41,7 @@ public class VentaActivity extends AppCompatActivity {
 
             @Override
             public void onClick(View v) {
-            /*    if (btn.isPressed()) {
+            /*if (btn.isPressed()) {
                     btn.setBackgroundResource(R.drawable.button_seatorange);
                 } else {
                     btn.setBackgroundResource(R.drawable.button_seat);

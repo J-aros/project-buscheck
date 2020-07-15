@@ -49,10 +49,10 @@ public class MenuActivity extends AppCompatActivity implements View.OnClickListe
         Intent i;
 
         switch (view.getId()) {
-            case R.id.opUnoview : i = new Intent(this,VentaActivity.class);startActivity(i); break;
-            case R.id.opDosview : i = new Intent(this,VentaActivity.class);startActivity(i); break;
+            case R.id.opUnoview : i = new Intent(this,SeleccionarBusActivity.class);startActivity(i); break;
+            case R.id.opDosview : i = new Intent(this,ConsultarDatosActivity.class);startActivity(i); break;
             case R.id.opTresview : i = new Intent(this,FormularioActivity.class);startActivity(i); break;
-            case R.id.opCuatroview : i = new Intent(this,FormularioActivity.class);startActivity(i); break;
+            case R.id.opCuatroview : i = new Intent(this,HistorialActivity.class);startActivity(i); break;
             default:break;
         }
     }
