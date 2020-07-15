@@ -43,7 +43,7 @@ public class ThirdFragment extends Fragment {
         done.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent registroUsuario = new Intent(getActivity(), VentaActivity.class);
+                Intent registroUsuario = new Intent(getActivity(), MenuActivity.class);
                 startActivity(registroUsuario);
             }
         });

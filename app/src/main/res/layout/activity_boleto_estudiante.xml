@@ -18,19 +18,32 @@
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.322" />
 
+    <ImageButton
+        android:id="@+id/backBtnEstudiante"
+        android:layout_width="44dp"
+        android:layout_height="27dp"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="16dp"
+        android:adjustViewBounds="true"
+        android:background="@null"
+        android:scaleType="centerInside"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/backblack" />
+
     <Button
         android:id="@+id/venderBtn"
         android:layout_width="151dp"
         android:layout_height="55dp"
-        android:layout_marginEnd="24dp"
         android:background="@drawable/button_vender"
-        android:text="VENDER"
+        android:text="CONFIRMAR"
         android:textColor="@color/white"
         android:textSize="16sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/view6"
-        app:layout_constraintVertical_bias="0.44" />
+        app:layout_constraintVertical_bias="0.42" />
 
     <TextView
         android:id="@+id/textView26"
@@ -228,23 +241,6 @@
         android:textSize="16dp"
         app:layout_constraintEnd_toEndOf="@+id/view6"
         app:layout_constraintTop_toBottomOf="@+id/textView39" />
-
-    <Button
-        android:id="@+id/cancelBtn"
-        android:layout_width="151dp"
-        android:layout_height="55dp"
-        android:layout_marginStart="32dp"
-        android:background="@drawable/button_cancelar"
-        android:text="CANCELAR"
-        android:textColor="@color/white"
-        android:textSize="16sp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toStartOf="@+id/venderBtn"
-        app:layout_constraintHorizontal_bias="0.0"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/view6"
-        app:layout_constraintVertical_bias="0.44" />
-
 
 
 </android.support.constraint.ConstraintLayout>

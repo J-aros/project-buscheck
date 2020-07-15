@@ -8,7 +8,7 @@ import android.widget.Button;
 
 public class EstudianteActivity extends AppCompatActivity {
 
-    Button cancelar, vender;
+    Button vender;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -26,15 +26,6 @@ public class EstudianteActivity extends AppCompatActivity {
             }
         });
 
-        cancelar = findViewById(R.id.cancelBtn);
-        cancelar.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
 
-                Intent intent = new Intent(EstudianteActivity.this, VentaActivity.class);
-                startActivity(intent);
-
-            }
-        });
     }
 }

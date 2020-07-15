@@ -8,7 +8,7 @@ import android.widget.Button;
 
 public class FrecuenteActivity extends AppCompatActivity {
 
-    Button cancelar, vender;
+    Button vender;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -26,15 +26,5 @@ public class FrecuenteActivity extends AppCompatActivity {
             }
         });
 
-        cancelar = findViewById(R.id.cancelBtn);
-        cancelar.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-
-                Intent intent = new Intent(FrecuenteActivity.this, VentaActivity.class);
-                startActivity(intent);
-
-            }
-        });
     }
 }

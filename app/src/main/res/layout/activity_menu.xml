@@ -111,7 +111,7 @@
         android:id="@+id/imageView15"
         android:layout_width="393dp"
         android:layout_height="267dp"
-        android:layout_marginTop="60dp"
+        android:layout_marginTop="76dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
@@ -243,5 +243,17 @@
         app:layout_constraintStart_toStartOf="@+id/opDosview"
         app:layout_constraintTop_toTopOf="@+id/opDosview"
         app:srcCompat="@drawable/research" />
+
+    <TextView
+        android:id="@+id/horaTxT"
+        android:layout_width="229dp"
+        android:layout_height="25dp"
+        android:textColor="@color/white"
+        android:textSize="18dp"
+        app:layout_constraintBottom_toTopOf="@+id/imageView15"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.457" />
 
 </android.support.constraint.ConstraintLayout>

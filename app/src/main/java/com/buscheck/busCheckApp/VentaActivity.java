@@ -25,32 +25,24 @@ public class VentaActivity extends AppCompatActivity {
         //Creación de Variables
         btn = findViewById(R.id.btnA1);
         btn.setOnClickListener(new View.OnClickListener() {
+
+            Drawable background = btn.getBackground();
+
             @Override
             public void onClick(View v) {
+            /*    if (btn.isPressed()) {
+                    btn.setBackgroundResource(R.drawable.button_seatorange);
+                } else {
+                    btn.setBackgroundResource(R.drawable.button_seat);
+                }*/
                 CreateAlertDialoge();
             }
         });
     }
 
 
-        /* --Agregar Color Naranja al Asiento--
-        final Button seatA1 = findViewById(R.id.btnA1);
+        //--Agregar Color Naranja al Asiento--
 
-        seatA1.setOnClickListener(new View.OnClickListener() {
-
-            Drawable background = seatA1.getBackground();
-
-            @Override
-            public void onClick(View view) {
-                if (seatA1.isPressed()) {
-                    seatA1.setBackgroundResource(R.drawable.button_seatorange);
-                } else {
-                    seatA1.setBackgroundResource(R.drawable.button_seat);
-                }
-            }
-
-            ;
-        });*/
 
 
         private void CreateAlertDialoge() {
@@ -59,7 +51,7 @@ public class VentaActivity extends AppCompatActivity {
             final String arr[] = getResources().getStringArray(R.array.tipoBoleto);
             AlertDialog.Builder builder = new AlertDialog.Builder(this);
             builder.setTitle("Selecciona una Opción");
-            builder.setSingleChoiceItems(R.array.tipoBoleto, -1, new DialogInterface.OnClickListener() {
+            builder.setSingleChoiceItems(R.array.tipoBoleto, 0, new DialogInterface.OnClickListener() {
                 @Override
                 public void onClick(DialogInterface dialogInterface, int i) {
                     data = arr[i];
@@ -72,20 +64,29 @@ public class VentaActivity extends AppCompatActivity {
                     switch(data)
                     {
                         case("Normal"):
-                            Intent myint=new Intent(VentaActivity.this,MenuActivity.class);
-                            myint.putExtra("act1","");
-                            startActivity(myint);
+                            Intent op1=new Intent(VentaActivity.this,NormalActivity.class);
+                            op1.putExtra("act1","");
+                            startActivity(op1);
                             break;
                         case("Frecuente"):
+                            Intent op2=new Intent(VentaActivity.this,FrecuenteActivity.class);
+                            op2.putExtra("act2","");
+                            startActivity(op2);
+                            break;
+                        case("Estudiante"):
+                            Intent op3=new Intent(VentaActivity.this,EstudianteActivity.class);
+                            op3.putExtra("act3","");
+                            startActivity(op3);
+                            break;
+                        default:
                             dialog.cancel();
-
                     }
 
                 }
             });
 
-            builder.create();
-            builder.show();
+            AlertDialog alert = builder.create();
+            alert.show();
         }
 
     }
