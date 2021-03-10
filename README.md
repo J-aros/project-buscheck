@@ -1,17 +1,35 @@
-### Features
 
-- Support Standard Markdown / CommonMark and GFM(GitHub Flavored Markdown);
-- Full-featured: Real-time Preview, Image (cross-domain) upload, Preformatted text/Code blocks/Tables insert, Code fold, Search replace, Read only, Themes, Multi-languages, L18n, HTML entities, Code syntax highlighting...;
-- Markdown Extras : Support ToC (Table of Contents), Emoji, Task lists, @Links...;
-- Compatible with all major browsers (IE8+), compatible Zepto.js and iPad;
-- Support identification, interpretation, fliter of the HTML tags;
-- Support TeX (LaTeX expressions, Based on KaTeX), Flowchart and Sequence Diagram of Markdown extended syntax;
-- Support AMD/CMD (Require.js & Sea.js) Module Loader, and Custom/define editor plugins;
+###Características
 
-# Editor.md
-
-![](https://user-images.githubusercontent.com/65929002/110556121-a7402b80-811c-11eb-9d11-9fdd635f50f8.png)
+- Venta de Pasajes en tiempo real
+- Registro de Horario, Usuarios y Trayectos
+- Generador de Reportes e Informes Diarios.
+- Modificación de Ventas
+- Consulta de datos de venta y buses.
+- Formularios
 
 
+# BusCheck
 
-![](https://img.shields.io/github/stars/pandao/editor.md.svg) ![](https://img.shields.io/github/forks/pandao/editor.md.svg) ![](https://img.shields.io/github/tag/pandao/editor.md.svg) ![](https://img.shields.io/github/release/pandao/editor.md.svg) ![](https://img.shields.io/github/issues/pandao/editor.md.svg) ![](https://img.shields.io/bower/v/editor.md.svg)
+![](https://user-images.githubusercontent.com/65929002/110558091-a5786700-8120-11eb-91c1-aa51e998e2d5.png)
+
+
+
+**Table of Contents**
+
+[TOCM]
+
+[TOC]
+
+#¿Qué es BusCheck?
+Existe una variedad de empresas que aún no logran adaptarse a las nuevas tecnologías, la también llamada cuarta revolución industrial. De esta manera nace **BusCheck**, un proyecto aún en desarrollo que pretende mejorar la gestión y la automatización de datos con respecto a los boletos vendidos en los buses interurbanos del país. La aplicación busca apoyar el registro contable y facturación de las empresas de transpoorte. 
+##Descripción General
+BusCheck es una aplicación que va dirigida a los vendedores y auxiliares de las empresas de transporte interurbano que en el presente aún no usan ni disponen de tecnología en su trabajo para apoyar su registro contable y facturación. Lo hacen
+generalmente a través de hojas y documentos de texto, pero lo que es peor; la mayor parte simplemente a mano. Plantillas manuales y mucho papel.
+###Objetivos
+Uno de los mayores objetivos del proyecto, es que al implementar tecnología en esta empresa, se va a permitir reducir considerablemente el uso del papel. Va a acelerar los procesos de venta y la empresa pueda ser más productiva y optimizar sus procesos de negocios; cuando tienen mecanismos para ver las ventas y la rentabilidad todos los días, tienen una manera de hacer más eficiente el negocio. También de poder cambiar o rediseñar sus productos.
+
+
+###Vídeo
+
+> Blockquotes
