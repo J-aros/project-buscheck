@@ -11,11 +11,9 @@
 # BusCheck
 
 
+![](https://user-images.githubusercontent.com/65929002/110559364-d48fd800-8122-11eb-9e5b-c69431927651.png)
 
-**(Tabla de Contenidos)**
 
-
-[TOC]
 
 # ¿Qué es BusCheck?
 Existe una variedad de empresas que aún no logran adaptarse a las nuevas tecnologías, la también llamada cuarta revolución industrial. De esta manera nace **BusCheck**, un proyecto aún en desarrollo que pretende mejorar la gestión y la automatización de datos con respecto a los boletos vendidos en los buses interurbanos del país. La aplicación busca apoyar el registro contable y facturación de las empresas de transpoorte. 
