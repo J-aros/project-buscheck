@@ -1,5 +1,5 @@
 
-###Características
+Características
 
 - Venta de Pasajes en tiempo real
 - Registro de Horario, Usuarios y Trayectos
