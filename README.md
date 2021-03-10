@@ -10,7 +10,8 @@
 
 # Editor.md
 
-\![logo](https://user-images.githubusercontent.com/65929002/110556078-98f20f80-811c-11eb-8276-fc2cc9081180.png)
+![](https://user-images.githubusercontent.com/65929002/110556121-a7402b80-811c-11eb-9d11-9fdd635f50f8.png)
+
 
 
 ![](https://img.shields.io/github/stars/pandao/editor.md.svg) ![](https://img.shields.io/github/forks/pandao/editor.md.svg) ![](https://img.shields.io/github/tag/pandao/editor.md.svg) ![](https://img.shields.io/github/release/pandao/editor.md.svg) ![](https://img.shields.io/github/issues/pandao/editor.md.svg) ![](https://img.shields.io/bower/v/editor.md.svg)
